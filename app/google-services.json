@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "202591033538",
+    "project_id": "tdahaprendofinal",
+    "storage_bucket": "tdahaprendofinal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:202591033538:android:50818f1c058e88dda7c35b",
+        "android_client_info": {
+          "package_name": "com.example.tdahaprendo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHDb2NfOuYlWjPUOjaopPicdZtOZLBrVw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

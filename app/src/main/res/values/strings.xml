@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">TDAHAprendo</string>
+
+    <string name="info02"> TDAH Aprendo es una aplicación desarrollada para apoyar en el proceso de aprendizaje de aquellos niños o niñas que presentan síntomas de inatención, hiperactividad e impulsividad. Esta aplicación está basada en rondas de preguntas sobre algunos cursos que se dictas en los colegios de nivel primaria. Cuenta con un temporalizador en donde cada alumno tiene un tiempo determinado para responder la mayor cantidad de preguntas posibles.</string>
+    <string name="linksinfo">
+        <a href="https://www.flaticon.es/iconos-gratis/copa-de-futbol" title="copa de futbol iconos">Copa de futbol iconos creados por Freepik - Flaticon</a> \n
+        <a href="https://www.flaticon.es/iconos-gratis/cerebro" title="cerebro iconos">Cerebro iconos creados por Freepik - Flaticon</a> \n
+        <a href="https://www.flaticon.es/iconos-gratis/manual" title="manual iconos">Manual iconos creados por justicon - Flaticon</a> \n
+        <a href="https://www.flaticon.es/iconos-gratis/hablar" title="hablar iconos">Hablar iconos creados por Freepik - Flaticon</a> \n
+        <a href="https://www.flaticon.es/iconos-gratis/reloj" title="reloj iconos">Reloj iconos creados por justicon - Flaticon</a> \n
+        <a href="https://www.flaticon.es/iconos-gratis/medalla" title="medalla iconos">Medalla iconos creados por Freepik - Flaticon</a>\n
+        <a href="https://www.flaticon.es/iconos-gratis/info" title="info iconos">Info iconos creados por Freepik - Flaticon</a> \n
+        <a href="https://www.flaticon.es/iconos-gratis/salida" title="salida iconos">Salida iconos creados por Freepik - Flaticon</a> \n
+        <a href="https://www.pexels.com/es-es/foto/sano-hombre-boligrafo-reloj-de-pulsera-4021775/" title="reloj pulsera">Foto de Karolina Grabowska - Pexels</a>
+        <a href="https://www.flaticon.es/iconos-gratis/videojuego" title="videojuego iconos">Videojuego iconos creados por Freepik - Flaticon</a>
+        <a href="https://www.flaticon.es/iconos-gratis/relajarse" title="relajarse iconos">Relajarse iconos creados por Freepik - Flaticon</a>
+        <a href="https://www.flaticon.es/iconos-gratis/desarrollador" title="desarrollador iconos">Desarrollador iconos creados por Freepik - Flaticon</a>
+        <a href="https://www.flaticon.es/iconos-gratis/telefono" title="teléfono iconos">Teléfono iconos creados por Freepik - Flaticon</a>
+        <a href="https://www.flaticon.es/iconos-gratis/www" title="www iconos">Www iconos creados por Prosymbols - Flaticon</a>
+        <a href="https://www.flaticon.es/iconos-gratis/crucigrama" title="crucigrama iconos">Crucigrama iconos creados por Flat Icons - Flaticon</a>
+        <a href="https://www.flaticon.es/iconos-gratis/lapices-de-color" title="lápices de color iconos">Lápices de color iconos creados por Jesus Chavarria - Flaticon</a>
+        <a href="https://www.flaticon.es/iconos-gratis/crucigrama" title="crucigrama iconos">Crucigrama iconos creados por Freepik - Flaticon</a>
+        <a href="https://www.flaticon.es/iconos-gratis/libro" title="libro iconos">Libro iconos creados por Smashicons - Flaticon</a>
+
+    </string>
+
+    <string name="default_web_client_id" translatable="false">202591033538-qa8bt670sinuom9t76icr1ambb94ockr.apps.googleusercontent.com</string>
+    <string name="se_termino_el_tiempo">Se termino el tiempo.. :(</string>
+
+    // Strings para el modulo de relajate
+
+    <string name="Sopa_de_letras"> En esta actividad tendremos que localizar determinadas palabras dentro de unos paneles con letras al azar. Tendremos que discriminar esas palabras del resto de letras. En otras variantes tendremos que buscar letras concretas, descubrir un mensaje con las letras que no se han usado e incluso responder a preguntas para saber qué palabras buscar. Podemos complicarlo tanto como queramos.
+        \n\n Esta actividad resulta útil para que los niños con TDAH trabajen aspectos tan relevantes como la atención selectiva, la capacidad de planificación y también la inhibición del comportamiento.
+    </string>
+
+    <string name="Laberintos"> Uno de los problemas que se presentan con frecuencia en los niños es la falta de atención, ellos se distraen con cualquier cosa, sin embargo, en algunos de ellos el problema es más complicado, de tal manera que su aprendizaje se ve afectado, por esta razón se debe Fortalecer la atención de los niños.
+           \n\n Esta estrategia no solo puedes aplicarla utilizando lápiz y papel, también puedes canalizar la atención del niño, realizando un laberinto de gran tamaño utilizando cuerdas que atraviesen habitaciones de la casa y se enreden entre sí, colocando algún dulce o recompensa al final del mismo.
+           \n\n También se pueden colocar reglas y penalizaciones como retirar parte de la recompensa si el niño se sale del laberinto o se distrae.
+    </string>
+
+    <string name="rompe_cabezas"> Es una de las estrategias de relajación para niños con trastornos del déficit de atención con hiperactividad más sencilla, la cual estimula la concentración y la inteligencia espacial del pequeño. Los rompecabezas llaman la atención de los niños con TDAH, desde el principio hasta el fin (en la mayoría de los casos), puede que se distraiga un par de veces, pero lo terminará.\n\n Los rompecabezas además ayudan a desarrollar funciones cognitivas como la resolución de problemas, mejorar la atención y la memoria en los niños.
+    \n\n En las primeras ocasiones debemos acompañarle, enseñarle a resolverlo. Los puzles de pocas piezas podemos montarlos nosotros, mientras nos mira y luego pedirle que lo monte él. Poco a poco hay que ir suprimiendo la ayuda y aumentando la dificultad, alejándole las partes o cambiándolas de posición. De esta manera comprenderá que esa pieza única realmente no lo era y que para que vuelva a aparecer esa imagen tiene que unir las piezas.
+    \n\n A medida que crecen vamos introduciendo puzzles con mayor cantidad de piezas adaptados a sus posibilidades. Eso sí, hasta que sean mayores de 4 años, procurad que sean de madera o de buena calidad, todavía su sed de destruirlo todo no está saciada y es probable que terminen doblándolos. Además le gustará repetirlo una y otra vez. A estas edades, hacer puzzles les proporcionará bonitos momentos de calma, les ayudará a concentrarse para conseguir algo, a tener paciencia y siempre encontrarán una gran satisfacción al ver su puzzle terminado.
+    \n\n Cuando comenzamos a hacer puzzles con niños mayores debemos estar presentes hasta que no adquieran las habilidades mínimas. Estar próximos, compartir con ellos el juego, verbalizar los procedimientos que seguiremos para hacer el puzzle sin duda es una herramienta didáctica valiosísima con niños que sufren Tdah.
+    </string>
+
+
+    <string name="Vamos_a_colorear"> En esta actividad debes pedirle a tu hijo que coloree una hoja sin dejar espacios en blanco. Puedes empezar aplicando el ejercicio con una hoja tamaño carta e ir aumentando de tamaño y, de la misma manera, podrá ser dos veces por semana, pero lo recomendable es que se realice cotidianamente. Un adulto debe supervisar el ejercicio porque el niño tenderá a desistir en finalizar el trabajo.
+    </string>
+
+
+    // String para descargar los recursos educativos
+    <string name="descargar_recurso_educativo">Descarga material de aprendizaje</string>
+    <string name="Cursos_descripcion"> Esto es un ejemplo de texto para los parragos en los modulos de los cursos presentados</string>
+
+
+</resources>

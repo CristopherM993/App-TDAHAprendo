@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondodashcomplete"
+    tools:context=".InfoPanel">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="30dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:elevation="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-black"
+                    android:text="BIENVENIDO A TDAHAPRENDO"
+                    android:textColor="@color/black"
+                    android:textSize="23sp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:id="@+id/tv_justified_paragraph"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="@string/info02"
+                    android:textColor="@android:color/black"
+                    android:textSize="15sp"/>
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Para los iconos utilizados en esta app: "
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"/>
+
+                <LinearLayout
+                    android:id="@+id/linelay_barramenus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginTop="5dp">
+
+                    <ImageButton
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="#00000000"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/ranking"
+                        />
+                    <ImageButton
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="#00000000"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/trofeofelicidades"
+                        />
+                    <ImageButton
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="#00000000"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cerebro"
+                        />
+                    <ImageButton
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="#00000000"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/manual"/>
+
+                    <ImageButton
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="#00000000"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/foro"/>
+                    <ImageButton
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="#00000000"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/reloj"
+                        />
+                    <ImageButton
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="#00000000"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/medalla"/>
+
+                    <ImageButton
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="#00000000"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/info"/>
+
+                    <ImageButton
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="#00000000"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/cerrarsesion"/>
+
+                </LinearLayout>
+
+                <com.codesgood.views.JustifiedTextView
+                    android:id="@+id/tv_justified_paragraph2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="Se obtuvieron de un banco con licencia de uso gratuito y se atribuyen a los siguientes autores:"
+                    android:textColor="@android:color/black"
+                    android:textSize="15sp"/>
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:id="@+id/TextViewLink"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/linksinfo"
+                            android:textSize="15sp"
+                            android:gravity="center"/>
+                    </LinearLayout>
+                </ScrollView>
+                <Button
+                    android:id="@+id/EntendidoInfo"
+                    android:layout_width="300dp"
+                    android:layout_height="60dp"
+                    android:text="Entendido"
+                    android:textSize="15sp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="15dp"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondodash1"
+    tools:context=".ProfesionalesTdah">
+
+    <RelativeLayout
+        android:id="@+id/titulorelative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp">
+
+        <TextView
+            android:id="@+id/titulodeldprofesiones"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="sans-serif-black"
+            android:text="Profesionales TDAH"
+            android:textColor="@color/white"
+            android:textSize="25sp"/>
+
+        <TextView
+            android:id="@+id/tituloprofsional"
+            android:layout_below="@+id/titulodeldprofesiones"
+            android:text="Especialistas en niños con TDAH"
+            android:textColor="#C6C5C5"
+            android:fontFamily="sans-serif-black"
+            android:layout_centerHorizontal="true"
+            android:textSize="14sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:id="@+id/refreshProfesional"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/cerebro"
+            android:layout_width="42dp"
+            android:layout_height="42dp"/>
+
+        <ImageView
+            android:id="@+id/ImVwregresarbienvenida"
+            android:layout_width="30dp"
+            android:layout_height="35dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerInParent="true"
+            android:src="@drawable/flechaizquierdaaa"
+            app:tint="@color/white" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/ImVwregresarbienvenida2"
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/especialistasimage"
+        android:background="@drawable/round_profesionak"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/userList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"/>
+</LinearLayout>

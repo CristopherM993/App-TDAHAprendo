@@ -1,0 +1,49 @@
+package com.example.tdahaprendo.CursoMate;
+
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.TextView;
+import androidx.annotation.NonNull;
+import androidx.recyclerview.widget.RecyclerView;
+import com.example.tdahaprendo.R;
+import com.firebase.ui.database.FirebaseRecyclerAdapter;
+import com.firebase.ui.database.FirebaseRecyclerOptions;
+
+public class MainAdapterMate extends FirebaseRecyclerAdapter<MainModelMate,MainAdapterMate.myViewHolder> {
+
+    /**
+     * Initialize a {@link RecyclerView.Adapter} that listens to a Firebase query. See
+     * {@link FirebaseRecyclerOptions} for configuration options.
+     *
+     * @param options
+     */
+    public MainAdapterMate(@NonNull FirebaseRecyclerOptions<MainModelMate> options) {
+        super(options);
+    }
+
+    @Override
+    protected void onBindViewHolder(@NonNull myViewHolder holder, int position, @NonNull MainModelMate model) {
+        holder.mTitulomate.setText(model.getTitulomate());
+        holder.mDescripmate.setText(model.getDescripmate());
+    }
+
+    @NonNull
+    @Override
+    public myViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_cursomate,parent, false);
+        return new myViewHolder(view);
+    }
+
+    class myViewHolder extends RecyclerView.ViewHolder{
+
+        TextView mTitulomate, mDescripmate;
+
+
+        public myViewHolder(@NonNull View itemView) {
+            super(itemView);
+            mTitulomate = (TextView) itemView.findViewById(R.id.txtV_titulo_mate);
+            mDescripmate = (TextView) itemView.findViewById(R.id.txtV_decrip_mate);
+        }
+    }
+}
